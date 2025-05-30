@@ -1,0 +1,26 @@
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color:#FF729F;
+}
+#loader{
+    height: 100px;
+    width: 100px;
+    border: 10px solid turquoise;
+    border-top: 10px solid white;
+    border-radius: 50%;
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+}
+@keyframes loader{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
